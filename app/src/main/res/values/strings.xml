@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">Movies Highlight</string>
+	<string name="title_movie">Movies</string>
+	<string name="title_tv_show">TV Shows</string>
+	<string name="title_favorite">My Favorites</string>
+	<string name="add_as_favorite">Add as Favorite</string>
+	<string name="remove_favorite">Remove from favorite</string>
+	<string name="success_add_favorite">Added as favorite</string>
+	<string name="success_remove_favorite">Removed from favorite</string>
+	<string name="language">Language</string>
+	<string name="minutes">Minutes</string>
+</resources>

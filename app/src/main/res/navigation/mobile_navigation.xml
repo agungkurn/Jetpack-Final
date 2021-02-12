@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	app:startDestination="@+id/navigation_movie">
+
+	<fragment
+		android:id="@+id/navigation_movie"
+		android:name="id.ak.movieshightlight.presentation.discover.MovieFragment"
+		android:label="@string/title_movie"
+		tools:layout="@layout/fragment_movie" />
+
+	<fragment
+		android:id="@+id/navigation_tv"
+		android:name="id.ak.movieshightlight.presentation.discover.TvShowFragment"
+		android:label="@string/title_tv_show"
+		tools:layout="@layout/fragment_tv_show" />
+
+	<fragment
+		android:id="@+id/navigation_favorite"
+		android:name="id.ak.movieshightlight.presentation.favorite.FavoriteFragment"
+		android:label="@string/title_favorite"
+		tools:layout="@layout/fragment_favorite" />
+</navigation>
